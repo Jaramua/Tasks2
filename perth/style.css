@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+}
+
+header {
+    width: 100%; 
+    padding: 10px 0 10px; 
+    background-image: url(import/blue-pattern.jpg);
+}
+
+header .container { 
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+header .container .logo {
+    font-size: 50px;
+    background: #FFF;
+    width: 100px;
+    height: 100px;
+    color: #03b2e4;
+    text-align: center;
+    box-shadow: 15px 15px 5px 0px rgba(0, 162, 209, 0.75);
+    font-family: 'Kaushan Script', cursive;
+}
+
+header .container .drop i {
+    font-size: 50px;
+    color: #FFF;
+}
+
+.home {
+	width: 100%;
+	background-image: url(import/blue-pattern.jpg);
+}
+
+.home .first {
+	max-width: 1200px;
+	height: 447px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; 
+}
+
+.home .first .first-text{
+	width: 600px;
+    height: 447px;
+    padding-top: 30px;
+    color: #FFF;
+}
+
+.home  .first .first-text h1 {
+	font-family: 'BlackJack';
+	font-size: 75px;
+	text-align: justify;
+}
+
+.home  .first .first-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.home  .first a {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	width: 150px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid  white;
+    border-radius: 2px;
+    color: #FFF;
+    margin-top: 45px; 
+}
+
+.home .first .image {
+    display: block;
+    margin-top: 109px;
+}
+
+.home .first .image img {
+	width: 250px;
+}
+
+.hello {
+	width: 100%;
+	background: #f4f4f4;
+}
+
+.hello .second {
+	max-width: 1200px;
+	height: 447px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px; 
+}
+
+.hello .second .second-text{
+	width: 600px;
+    height: 447px;
+    padding-top: 30px;
+    color: #707070;
+}
+
+.hello .second .second-text h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: justify;
+}
+
+.hello  .second .second-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.hello  .second a {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	width: 150px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid  #21a590;
+    border-radius: 2px;
+    color: #21a590;
+    margin-top: 45px; 
+}
+
+.hello .second .image {
+	width: 140px;
+    display: block;
+    margin-top: 26px;
+
+} 
+
+.hello .second .image img {
+	width: 300px;
+} 
+
+.dribbble {
+	width: 100%;
+	background: white;
+}
+
+.dribbble .third {
+	height: 750px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; 
+}
+
+.dribbble .third .third-text{
+	width: 600px;
+    height: 447px;
+    padding-top: 30px;
+    padding-right: 100px;
+    color: #707070;
+}
+
+.dribbble  .third .third-text h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: justify;
+}
+
+.dribbble  .third .third-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.dribbble  .third a {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	width: 180px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid  #ef1359;
+    border-radius: 2px;
+    color: #ef1359;
+    margin-top: 45px; 
+}
+
+.dribbble .third .device {
+    display: block;
+    margin-top: 250px;
+}
+
+.dribbble .third .device img {
+	width: 900px;
+}
+
+.beer {
+	height: 300px;
+	background-image: url(import/green-pattern.jpg);
+	
+}
+
+.beer .fourth{
+	width: 500px;
+    padding: 10px 0 10px;
+    margin: 0 auto; 
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.beer .fourth p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	margin-top: 60px; 
+} 
+
+.beer .fourth a {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	width: 200px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid  white;
+    border-radius: 2px;
+    color: white;
+    margin-top: 45px; 
+    margin-left: 145px;
+}
+
+
+
+
+
+
+
+
+
